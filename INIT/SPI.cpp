@@ -18,12 +18,12 @@
 
 namespace utils {
 
-  /*! \class UART
-   * \brief Classe permettant de gérer une liaison série
+  /*! \class SPI
+   * \brief Classe permettant de gérer une liaison SPI
    *
-   *  La classe gère deux périphériques
+   *  La classe gère deux périphériques SPI
    */
-  class UART {
+  class SPI {
 
    private:
 
@@ -39,7 +39,7 @@ namespace utils {
      *  \return void
      */
 
-	UART(int rx, int tx)
+	SPI(int rx, int tx)
    	: _serial(rx, tx)
 	{
 	

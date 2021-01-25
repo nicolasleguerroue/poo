@@ -1,5 +1,5 @@
 /*!
- * \file Hoystick.cpp
+ * \file Joystick.cpp
  * \brief Gestionnaire Joystick pour carte Arduino
  * \author Nicolas LE GUERROUE
  * \version 1.0
@@ -19,12 +19,12 @@
 
 namespace utils {
 
-  /*! \class Joystick
+  /*! \class I2C
    * \brief Classe permettant de gérer des joysticks
    *
-   *  La classe gère 2 axes et un bouton poussoir.
+   *  La classe gère la communication I2C
    */
-  class Joystick {
+  class I2C {
    private:
 
    int cout=0;  /*!< Compteur interne*/
@@ -38,7 +38,7 @@ namespace utils {
      *  \param axe_y : broche de lecture de l'axe y
      *  \return void
      */
-   Joystick(int axe_x, int axe_y, int button, int type) { //Constructeur
+   I2C(int axe_x, int axe_y, int button, int type) { //Constructeur
 
 		_axe_x=axe_x;
 		_axe_y=axe_y;
