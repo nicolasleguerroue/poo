@@ -86,7 +86,7 @@ namespace utils {
      *  \return void
      */
 
-void setLongTime(int long_delay) {
+inline void setLongTime(int long_delay) {
 
 	_long_delay = long_delay;
 
