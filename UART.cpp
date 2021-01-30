@@ -10,8 +10,8 @@
 #include "SoftwareSerial.h"
 
 
-/** \namespace utils
- * Espace de nom pour les composants Arduino [END]
+/*! \namespace utils
+ * Espace de nom pour les composants Arduino
  */
 
 
