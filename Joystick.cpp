@@ -13,7 +13,7 @@
 #define UNO 0x02  /*!< Arduino Uno*/
 #define MEGA 0x01 /*!< Arduino Mega*/
 
-/** \namespace utils
+/*! \namespace utils
  * Espace de nom pour les composants Arduino
  */
 
