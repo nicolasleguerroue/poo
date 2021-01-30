@@ -1,6 +1,6 @@
 /*!
  * \file UART.cpp
- * \brief Gestionnaire UART pour carte Arduino
+ * \brief Gestionnaire UART pour carte Arduino [END]
  * \author Nicolas LE GUERROUE
  * \version 1.0
  */
