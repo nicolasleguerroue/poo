@@ -11,7 +11,7 @@
 
 
 /*! \namespace utils
- * Espace de nom pour les composantsSS Arduino
+ * Espace de nom pour les composantsSSerpent Arduino
  */
 
 
